@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <section class="estilos">
+      <article>
+        <h1>¡BIENVENIDO/A A LA ROCKOLA!</h1>
+        <p>
+          Selecciona los temas que querés escuchar. (Recordá que sólo tenés
+          hasta 20 minutos disponibles).
+        </p>
+        <h2>- CANCIONES DISPONIBLES -</h2>
+        <ul>
+          <li onclick="agregarCanciones(corazonVacio)">
+            "Corazón Vacío" - Maria Becerra (3 minutos).
+          </li>
+          <li onclick="agregarCanciones(oyeMujer)">
+            "Oye Mujer" - Ke Personajes (2 minutos).
+          </li>
+          <li onclick="agregarCanciones(besameBonito)">
+            "Bésame Bonito" - Eugenia Quevedo (4 minutos).
+          </li>
+          <li onclick="agregarCanciones(lover)">
+            "Lover" - Taylor Swift (4 minutos).
+          </li>
+          <li onclick="agregarCanciones(dontStartNow)">
+            "Dont Start Now" - Dua Lipa (3 minutos).
+          </li>
+          <li onclick="agregarCanciones(vasABailar)">
+            "Vas A Bailar" - Ciro y los Persas (5 minutos).
+          </li>
+          <li onclick="agregarCanciones(chau)">
+            "Chau" - No Te Va Gustar (4 minutos).
+          </li>
+          <li onclick="agregarCanciones(fragil)">
+            "Frágil" - Q'lokura (3 minutos).
+          </li>
+          <li onclick="agregarCanciones(ahiAhi)">
+            "Ahí Ahí" - El Negro Tecla (3 minutos).
+          </li>
+          <li onclick="agregarCanciones(titan)">
+            "Titán" - Callejero Fino (3 minutos).
+          </li>
+          <li onclick="agregarCanciones(ojosDeDragon)">
+            "Ojos de Dragón" - Las Pastillas del Abuelo (4 minutos).
+          </li>
+          <li onclick="agregarCanciones(rompecabezasDeAmor)">
+            "Rompecabezas De Amor" - Las Pastillas del Abuelo (5 minutos).
+          </li>
+          <li onclick="agregarCanciones(rocanrolesSinDestino)">
+            "Rocanroles Sin Destino" - Callejeros (4 minutos).
+          </li>
+          <li onclick="agregarCanciones(jijiji)">
+            "Ji Ji Ji" - Indio (5 minutos).
+          </li>
+          <li onclick="agregarCanciones(laLlave)">
+            "La Llave" - Abel Pintos (4 minutos).
+          </li>
+          <li onclick="agregarCanciones(givenchy)">
+            "Givenchy" - Duki (3 minutos).
+          </li>
+          <li onclick="agregarCanciones(tamoChelo)">
+            "Tamo Chelo" - El Noba (2 minutos).
+          </li>
+          <li onclick="agregarCanciones(butakera)">
+            "Butakera" - La Joaqui (2 minutos).
+          </li>
+          <li onclick="agregarCanciones(mission11)">
+            "Mission 11" - Peipper (2 minutos).
+          </li>
+          <li onclick="agregarCanciones(soyCordobes)">
+            "Soy Cordobés" - Rodrigo (4 minutos).
+          </li>
+        </ul>
+      </article>
+      <article class="sec2">
+        <h2>- PLAYLIST -</h2>
+        <ul id="playlist"></ul>
+        <h2 id="minutosDisponibles">Minutos Disponibles: <span> </span></h2>
+      </article>
+    </section>
+  </body>
+  <script src="main.js"></script>
+</html>
